@@ -1,0 +1,3639 @@
+{
+  "wTotals": [
+    10046,
+    10058,
+    10059
+  ],
+  "wTotalsPreDLC": [
+    9294,
+    9306,
+    9307
+  ],
+  "groups": [
+    {
+      "groupName": "Arcane",
+      "groupWs": [
+        156,
+        141,
+        123
+      ],
+      "effects": [
+        {
+          "name": "Arcane +1",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Arcane +2",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Arcane +3",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Attack Power",
+      "groupWs": [
+        1505,
+        1684,
+        1864
+      ],
+      "effects": [
+        {
+          "name": "Physical Attack Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "1.04× physical damage"
+        },
+        {
+          "name": "Physical Attack Up +1",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.05× physical damage"
+        },
+        {
+          "name": "Physical Attack Up +2",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.06× physical damage"
+        },
+        {
+          "name": "Magic Attack Power Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "1.045× magic damage"
+        },
+        {
+          "name": "Magic Attack Power Up +1",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.055× magic damage"
+        },
+        {
+          "name": "Magic Attack Power Up +2",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.065× magic damage"
+        },
+        {
+          "name": "Fire Attack Power Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "1.045× fire damage"
+        },
+        {
+          "name": "Fire Attack Power Up +1",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.055× fire damage"
+        },
+        {
+          "name": "Fire Attack Power Up +2",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.065× fire damage"
+        },
+        {
+          "name": "Lightning Attack Power Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "1.045× lightning damage"
+        },
+        {
+          "name": "Lightning Attack Power Up +1",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.055× lightning damage"
+        },
+        {
+          "name": "Lightning Attack Power Up +2",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.065× lightning damage"
+        },
+        {
+          "name": "Holy Attack Power Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "1.045× holy damage"
+        },
+        {
+          "name": "Holy Attack Power Up +1",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.055× holy damage"
+        },
+        {
+          "name": "Holy Attack Power Up +2",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.065× holy damage"
+        },
+        {
+          "name": "Physical attack power increases after using grease items",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "1.1× physical damage for 30s after using grease"
+        },
+        {
+          "name": "Taking attacks improves attack power",
+          "ws": [
+            46,
+            66,
+            86
+          ],
+          "desc": "1.15× damage for 10s after taking a hit"
+        },
+        {
+          "name": "Improved Initial Standard Attack",
+          "ws": [
+            46,
+            66,
+            86
+          ],
+          "desc": "1.15× first light attack damage"
+        },
+        {
+          "name": "Improved Guard Counters",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "1.17× guard counter damage"
+        },
+        {
+          "name": "Improved Critical Hits",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "1.18× critical hit damage"
+        },
+        {
+          "name": "Attack power increased for each evergaol prisoner defeated",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "1.05× damage per Evergaol boss defeated"
+        },
+        {
+          "name": "Attack power increased for each Night Invader defeated",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "1.07× damage per Night Invader defeated"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Daggers Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Daggers equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Straight Swords Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Straight Swords equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Greatswords Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Greatswords equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Colossal Swords Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Colossal Swords equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Curved Swords Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Curved Swords equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Curved Greatswords Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Curved Greatswords equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Katana Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Katanas equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Twinblades Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Twinblades equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Thrusting Swords Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Thrusting Swords equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Heavy Thrusting Swords Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Heavy Thrusting Swords equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Axes Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Axes equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Greataxes Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Greataxes equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Hammers Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Hammers equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Great Hammers Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Great Hammers equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Flails Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Flails equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Spears Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Spears equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Great Spears Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Great Spears equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Halberds Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Halberds equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Reapers Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Reapers equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Fists Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Fists equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Claws Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Claws equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Whips Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Whips equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Colossal Weapons Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.2× damage with 3+ Colossal Weapons equipped"
+        },
+        {
+          "name": "Improved Attack Power with 3+ Bows Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.1× damage with 3+ Bows equipped"
+        },
+        {
+          "name": "Guard counter is given a boost based on current HP",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "Adds HP÷20 flat damage to guard counters"
+        },
+        {
+          "name": "Improved Dagger Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Dagger damage"
+        },
+        {
+          "name": "Improved Straight Sword Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Straight Sword damage"
+        },
+        {
+          "name": "Improved Greatsword Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Greatsword damage"
+        },
+        {
+          "name": "Improved Colossal Sword Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Colossal Sword damage"
+        },
+        {
+          "name": "Improved Curved Sword Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Curved Sword damage"
+        },
+        {
+          "name": "Improved Curved Greatsword Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Curved Greatsword damage"
+        },
+        {
+          "name": "Improved Katana Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Katana damage"
+        },
+        {
+          "name": "Improved Twinblade Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Twinblade damage"
+        },
+        {
+          "name": "Improved Thrusting Sword Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Thrusting Sword damage"
+        },
+        {
+          "name": "Improved Heavy Thrusting Sword Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Heavy Thrusting Sword damage"
+        },
+        {
+          "name": "Improved Axe Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Axe damage"
+        },
+        {
+          "name": "Improved Greataxe Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Greataxe damage"
+        },
+        {
+          "name": "Improved Hammer Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Hammer damage"
+        },
+        {
+          "name": "Improved Great Hammer Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Great Hammer damage"
+        },
+        {
+          "name": "Improved Flail Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Flail damage"
+        },
+        {
+          "name": "Improved Spear Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Spear damage"
+        },
+        {
+          "name": "Improved Great Spear Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Great Spear damage"
+        },
+        {
+          "name": "Improved Halberd Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Halberd damage"
+        },
+        {
+          "name": "Improved Reaper Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Reaper damage"
+        },
+        {
+          "name": "Improved Fist Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Fist damage"
+        },
+        {
+          "name": "Improved Claw Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Claw damage"
+        },
+        {
+          "name": "Improved Whip Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Whip damage"
+        },
+        {
+          "name": "Improved Colossal Weapon Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.09× Colossal Weapon damage"
+        },
+        {
+          "name": "Improved Bow Attack Power",
+          "ws": [
+            9,
+            9,
+            9
+          ],
+          "desc": "1.06× Bow damage"
+        }
+      ]
+    },
+    {
+      "groupName": "Attack power up when facing frostbite-afflicted\nenemy",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Attack power up when facing frostbite-afflicted\nenemy",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "1.1× damage vs frostbite-afflicted targets"
+        }
+      ]
+    },
+    {
+      "groupName": "Attack Power vs Poison / Rot Afflicted",
+      "groupWs": [
+        92,
+        80,
+        70
+      ],
+      "effects": [
+        {
+          "name": "Attack power up when facing poison-afflicted enemy",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "1.1× damage vs poison-afflicted targets"
+        },
+        {
+          "name": "Attack power up when facing scarlet rot-afflicted\nenemy",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "1.1× damage vs rot-afflicted targets"
+        }
+      ]
+    },
+    {
+      "groupName": "Bewitching Branches in possession at start of\nexpedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Bewitching Branches in possession at start of\nexpedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Character Ability",
+      "groupWs": [
+        2014,
+        2014,
+        2014
+      ],
+      "effects": [
+        {
+          "name": "[Wylder] Art activation spreads fire in area",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Wylder] Standard attacks enhanced with fiery\nfollow-ups when using Character Skill (greatsword only)",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Wylder] Art gauge greatly filled when ability is\nactivated",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Wylder] +1 additional Character Skill use",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Guardian] Increased duration for Character Skill",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Guardian] Creates whirlwind when charging halberd\nattacks",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Guardian] Slowly restores nearby allies' HP\nwhile Art is active",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Guardian] Successful guards send out shockwaves while\nability is active",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Ironeye] Art Charge Activation Adds Poison Effect",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Ironeye] Boosts thrusting counterattacks after executing Art",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Ironeye] +1 additional Character Skill use",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Ironeye] Extends duration of weak point",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Duchess] Successive dagger attack reprises event upon\nnearby enemies",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Duchess] Become difficult to spot and silence\nfootsteps after landing critical from behind",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Duchess] Defeating enemies while Art is active ups\nattack power",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Duchess] Improved Character Skill Attack Power",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Raider] Damage taken while using Character Skill\nimproves attack power and stamina",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Raider] Duration of Ultimate Art extended",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Revenant] Expend own HP to fully heal nearby allies\nwhen activating Art",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Revenant] Trigger ghostflame explosion during\nUltimate Art activation",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Revenant] Strengthens family and allies when Ultimate Art is activated",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Revenant] Power up while fighting alongside family",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Recluse] Collecting affinity residue activates\nTerra Magica",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Recluse] Suffer blood loss and increase attack\npower upon Art activation",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Recluse] Activating Ultimate Art raises Max HP",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Executor] Roaring restores HP while Art is active",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Executor] Character Skill Boosts Attack but Attacking Drains HP",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Executor] While Character Skill is active,\nunlocking use of cursed sword restores HP",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "[Scholar] Prevent slowing of Character Skill progress",
+          "ws": [
+            53,
+            53,
+            53
+          ],
+          "dlc": true
+        },
+        {
+          "name": "[Scholar] Allies targeted by Character Skill gain boosted attack",
+          "ws": [
+            53,
+            53,
+            53
+          ],
+          "dlc": true
+        },
+        {
+          "name": "[Scholar] Continuous damage inflicted on targets threaded by Ultimate Art",
+          "ws": [
+            53,
+            53,
+            53
+          ],
+          "dlc": true
+        },
+        {
+          "name": "[Scholar] Earn runes for each additional specimen acquired with Character Skill",
+          "ws": [
+            53,
+            53,
+            53
+          ],
+          "dlc": true
+        },
+        {
+          "name": "[Undertaker] Activating Ultimate Art increases attack power",
+          "ws": [
+            53,
+            53,
+            53
+          ],
+          "dlc": true
+        },
+        {
+          "name": "[Undertaker] Attack power increased by landing the final blow of a chain attack",
+          "ws": [
+            53,
+            53,
+            53
+          ],
+          "dlc": true
+        },
+        {
+          "name": "[Undertaker] Physical attacks boosted while assist effect from incantation is active for self",
+          "ws": [
+            53,
+            53,
+            53
+          ],
+          "dlc": true
+        },
+        {
+          "name": "[Undertaker] Contact with allies restores their HP while Ultimate Art is activated",
+          "ws": [
+            53,
+            53,
+            53
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Improved Poise Near Totem Stela",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        },
+        {
+          "name": "Defeating enemies near Totem Stela restores HP",
+          "ws": [
+            53,
+            53,
+            53
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Character Skill Cooldown Reduction",
+      "groupWs": [
+        141,
+        176,
+        210
+      ],
+      "effects": [
+        {
+          "name": "Character Skill Cooldown Reduction +1",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "0.95× skill cooldown"
+        },
+        {
+          "name": "Character Skill Cooldown Reduction +2",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "0.925× skill cooldown"
+        },
+        {
+          "name": "Character Skill Cooldown Reduction +3",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "0.9× skill cooldown"
+        }
+      ]
+    },
+    {
+      "groupName": "Critical Hit Boosts Stamina Recovery Speed",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Critical Hit Boosts Stamina Recovery Speed",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Critical Hits Earn Runes",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Critical Hits Earn Runes",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Critical hits fill more of the Art gauge",
+      "groupWs": [
+        46,
+        66,
+        86
+      ],
+      "effects": [
+        {
+          "name": "Critical hits fill more of the Art gauge",
+          "ws": [
+            46,
+            66,
+            86
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Crystal Darts in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Crystal Darts in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Defeating enemies fills more of the Art gauge",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Defeating enemies fills more of the Art gauge",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Defeating Enemies Restores HP for Allies",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Defeating enemies restores HP for allies but not for\nself",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Dexterity",
+      "groupWs": [
+        156,
+        141,
+        123
+      ],
+      "effects": [
+        {
+          "name": "Dexterity +1",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Dexterity +2",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Dexterity +3",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Dormant Power - Weapon Discovery",
+      "groupWs": [
+        128,
+        128,
+        128
+      ],
+      "effects": [
+        {
+          "name": "Dormant Power Helps Discover Daggers",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Straight Swords",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Greatswords",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Colossal Swords",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Curved Swords",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Curved Greatswords",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Katana",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Twinblades",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Thrusting Swords",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Heavy Thrusting Swords",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Axes",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Greataxes",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Hammers",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Great Hammers",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Flails",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Spears",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Great Spears",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Halberds",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Reapers",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Fists",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Claws",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Whips",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Colossal Weapons",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Bows",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Greatbows",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Crossbows",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Ballistas",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Small Shields",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Medium Shields",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Greatshields",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Staves",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Dormant Power Helps Discover Sacred Seals",
+          "ws": [
+            4,
+            4,
+            4
+          ],
+          "dlc": true
+        }
+      ]
+    },
+    {
+      "groupName": "Draw enemy attention while guarding",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Draw enemy attention while guarding",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Endurance",
+      "groupWs": [
+        156,
+        191,
+        225
+      ],
+      "effects": [
+        {
+          "name": "Endurance +1",
+          "ws": [
+            52,
+            47,
+            41
+          ],
+          "desc": "+2 Max Stamina"
+        },
+        {
+          "name": "Endurance +2",
+          "ws": [
+            52,
+            72,
+            92
+          ],
+          "desc": "+4 Max Stamina"
+        },
+        {
+          "name": "Endurance +3",
+          "ws": [
+            52,
+            72,
+            92
+          ],
+          "desc": "+6 Max Stamina"
+        }
+      ]
+    },
+    {
+      "groupName": "Faith",
+      "groupWs": [
+        156,
+        141,
+        123
+      ],
+      "effects": [
+        {
+          "name": "Faith +1",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Faith +2",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Faith +3",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Fire Damage Negation Up",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Fire Damage Negation Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+10% fire damage negation"
+        }
+      ]
+    },
+    {
+      "groupName": "Fire Grease in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Fire Grease in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Fire Pots in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Fire Pots in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Flask Also Heals Allies",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Flask Also Heals Allies",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "Heals allies for 50% of flask HP in a radius"
+        }
+      ]
+    },
+    {
+      "groupName": "FP Restoration on Attack (by Weapon Type)",
+      "groupWs": [
+        216,
+        216,
+        216
+      ],
+      "effects": [
+        {
+          "name": "FP Restoration upon Dagger Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Straight Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Greatsword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Colossal Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Curved Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Curved Greatsword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Katana Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Twinblade Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Thrusting Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Heavy Thrusting Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Axe Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Greataxe Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Hammer Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Great Hammer Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Flail Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Spear Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Great Spear Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Halberd Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Reaper Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Fist Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Claw Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Whip Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Colossal Weapon Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "FP Restoration upon Bow Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Glintstone Scraps in possession at start of\nexpedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Glintstone Scraps in possession at start of\nexpedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Gravity Stone Chunks in possession at start of\nexpedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Gravity Stone Chunks in possession at start of\nexpedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Holy Damage Negation Up",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Holy Damage Negation Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+10% holy damage negation"
+        }
+      ]
+    },
+    {
+      "groupName": "Holy Grease in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Holy Grease in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Holy Water Pots in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Holy Water Pots in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "HP Restoration on Attack (by Weapon Type)",
+      "groupWs": [
+        216,
+        216,
+        216
+      ],
+      "effects": [
+        {
+          "name": "HP Restoration upon Dagger Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Straight Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Greatsword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Colossal Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Curved Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Curved Greatsword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Katana Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Twinblade Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Thrusting Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Heavy Thrusting Sword Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Axe Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Greataxe Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Hammer Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Great Hammer Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Flail Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Spear Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Great Spear Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Halberd Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Reaper Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Fist Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Claw Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Whip Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Colossal Weapon Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "HP Restoration upon Bow Attacks",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "HP Restoration upon Thrusting Counterattack",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "HP Restoration upon Thrusting Counterattack",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "Restores [MaxHP × 0.025] HP on counterhits"
+        }
+      ]
+    },
+    {
+      "groupName": "HP restored when using medicinal boluses, etc.",
+      "groupWs": [
+        46,
+        66,
+        86
+      ],
+      "effects": [
+        {
+          "name": "HP restored when using medicinal boluses, etc.",
+          "ws": [
+            46,
+            66,
+            86
+          ],
+          "desc": "Restores 50 HP on consumable use"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Blood Loss Resistance",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Improved Blood Loss Resistance",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+75 blood loss resistance"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Damage Negation at Low HP",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Improved Damage Negation at Low HP",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Death Blight Resistance",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Improved Death Blight Resistance",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+75 death blight resistance"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Frost Resistance",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Improved Frost Resistance",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+75 frost resistance"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Glintstone and Gravity Stone Damage",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Improved Glintstone and Gravity Stone Damage",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.15× stone projectile damage"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Madness Resistance",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Improved Madness Resistance",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+75 madness resistance"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Poise & Damage Negation When Knocked Back",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Improved Poise & Damage Negation When Knocked Back\nby Damage",
+          "ws": [
+            46,
+            40,
+            35
+          ],
+          "desc": "20% damage negation and 0.8× poise damage taken for 20s after being hit"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Poison Resistance",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Improved Poison Resistance",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+75 poison resistance"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Rot Resistance",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Improved Rot Resistance",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+75 rot resistance"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Sleep Resistance",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Improved Sleep Resistance",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+75 sleep resistance"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Throwing Knife Damage",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Improved Throwing Knife Damage",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.15× throwing knife damage"
+        }
+      ]
+    },
+    {
+      "groupName": "Improved Throwing Pot Damage",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Improved Throwing Pot Damage",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.15× throwing pot damage"
+        }
+      ]
+    },
+    {
+      "groupName": "Increased rune acquisition for self and allies",
+      "groupWs": [
+        46,
+        66,
+        86
+      ],
+      "effects": [
+        {
+          "name": "Increased rune acquisition for self and allies",
+          "ws": [
+            46,
+            66,
+            86
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Intelligence",
+      "groupWs": [
+        156,
+        141,
+        123
+      ],
+      "effects": [
+        {
+          "name": "Intelligence +1",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Intelligence +2",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Intelligence +3",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Items confer effect to all nearby allies",
+      "groupWs": [
+        46,
+        66,
+        86
+      ],
+      "effects": [
+        {
+          "name": "Items confer effect to all nearby allies",
+          "ws": [
+            46,
+            66,
+            86
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Lightning Damage Negation Up",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Lightning Damage Negation Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+10% lightning damage negation"
+        }
+      ]
+    },
+    {
+      "groupName": "Lightning Grease in possession at start of\nexpedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Lightning Grease in possession at start of\nexpedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Lightning Pots in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Lightning Pots in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Magic Damage Negation Up",
+      "groupWs": [
+        47,
+        42,
+        36
+      ],
+      "effects": [
+        {
+          "name": "Magic Damage Negation Up",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "+10% magic damage negation"
+        }
+      ]
+    },
+    {
+      "groupName": "Magic Grease in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Magic Grease in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Magic Pots in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Magic Pots in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Max FP increased for each Sorcerer's Rise unlocked",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Max FP increased for each Sorcerer's Rise unlocked",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Max FP with 3+ Staves / Seals",
+      "groupWs": [
+        18,
+        18,
+        18
+      ],
+      "effects": [
+        {
+          "name": "Max FP Up with 3+ Staves Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "Max FP Up with 3+ Sacred Seals Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Max HP with 3+ Shields",
+      "groupWs": [
+        27,
+        27,
+        27
+      ],
+      "effects": [
+        {
+          "name": "Max HP Up with 3+ Small Shields Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "Max HP Up with 3+ Medium Shields Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "Max HP Up with 3+ Greatshields Equipped",
+          "ws": [
+            9,
+            9,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Mind",
+      "groupWs": [
+        156,
+        191,
+        225
+      ],
+      "effects": [
+        {
+          "name": "Mind +1",
+          "ws": [
+            52,
+            47,
+            41
+          ],
+          "desc": "+5 Max FP"
+        },
+        {
+          "name": "Mind +2",
+          "ws": [
+            52,
+            72,
+            92
+          ],
+          "desc": "+10 Max FP"
+        },
+        {
+          "name": "Mind +3",
+          "ws": [
+            52,
+            72,
+            92
+          ],
+          "desc": "+15 Max FP"
+        }
+      ]
+    },
+    {
+      "groupName": "Partial HP Restoration upon Post-Damage Attacks",
+      "groupWs": [
+        46,
+        66,
+        86
+      ],
+      "effects": [
+        {
+          "name": "Partial HP Restoration upon Post-Damage Attacks",
+          "ws": [
+            46,
+            66,
+            86
+          ],
+          "desc": "Replenishes HP on hit briefly after taking damage"
+        }
+      ]
+    },
+    {
+      "groupName": "Poise",
+      "groupWs": [
+        141,
+        126,
+        108
+      ],
+      "effects": [
+        {
+          "name": "Poise +1",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "0.95× incoming poise damage"
+        },
+        {
+          "name": "Poise +2",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "0.9× incoming poise damage"
+        },
+        {
+          "name": "Poise +3",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "0.85× incoming poise damage"
+        }
+      ]
+    },
+    {
+      "groupName": "Poisonbone Darts in possession at start of\nexpedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Poisonbone Darts in possession at start of\nexpedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Raised Stamina Recovery for Nearby Allies",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Raised stamina recovery for nearby allies, but not\nfor self",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Rune discount for shop purchases while on expedition",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Rune discount for shop purchases while on expedition",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Shield Grease in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Shield Grease in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Slowly Restore HP When HP Is Low",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Slowly restore HP for self and nearby allies when HP\nis low",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Small Pouch in possession at start of expedition",
+      "groupWs": [
+        39,
+        59,
+        79
+      ],
+      "effects": [
+        {
+          "name": "Small Pouch in possession at start of expedition",
+          "ws": [
+            39,
+            59,
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Spell School",
+      "groupWs": [
+        546,
+        476,
+        406
+      ],
+      "effects": [
+        {
+          "name": "Improved Stonedigger Sorcery",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Stonedigger sorcery damage"
+        },
+        {
+          "name": "Improved Carian Sword Sorcery",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Carian Sword sorcery damage"
+        },
+        {
+          "name": "Improved Glintblade Sorcery",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Glintblade sorcery damage"
+        },
+        {
+          "name": "Improved Invisibility Sorcery",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Invisibility sorcery damage"
+        },
+        {
+          "name": "Improved Crystalian sorcery",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Crystalian sorcery damage"
+        },
+        {
+          "name": "Improved Gravity Sorcery",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Gravity sorcery damage"
+        },
+        {
+          "name": "Improved Thorn Sorcery",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Thorn sorcery damage"
+        },
+        {
+          "name": "Improved Fundamentalist Incantations",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Fundamentalist incantation damage"
+        },
+        {
+          "name": "Improved Dragon Cult Incantations",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Dragon Cult incantation damage"
+        },
+        {
+          "name": "Improved Giants' Flame Incantations",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Giants' Flame incantation damage"
+        },
+        {
+          "name": "Improved Godslayer Incantations",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Godslayer incantation damage"
+        },
+        {
+          "name": "Improved Bestial Incantations",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Bestial incantation damage"
+        },
+        {
+          "name": "Improved Frenzied Flame Incantations",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Frenzied Flame incantation damage"
+        },
+        {
+          "name": "Improved Dragon Communion Incantations",
+          "ws": [
+            39,
+            34,
+            29
+          ],
+          "desc": "1.12× Dragon Communion incantation damage"
+        }
+      ]
+    },
+    {
+      "groupName": "Stamina Recovery upon Landing Attacks",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Stamina Recovery upon Landing Attacks",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Starlight Shards in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Starlight Shards in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Starting Armament Element / Status",
+      "groupWs": [
+        210,
+        210,
+        210
+      ],
+      "effects": [
+        {
+          "name": "Starting armament deals magic damage",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Starting armament deals fire damage",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Starting armament deals lightning damage",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Starting armament deals holy damage",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Starting armament inflicts frost",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Starting armament inflicts poison",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Starting armament inflicts blood loss",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Starting Armament Skill",
+      "groupWs": [
+        800,
+        800,
+        800
+      ],
+      "effects": [
+        {
+          "name": "Changes compatible armament's skill to Glintblade\nPhalanx at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Gravitas at\nstart of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Flaming\nStrike at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to\nEruption at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Thunderbolt\nat start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Lightning\nSlash at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Sacred Blade\nat start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Prayerful\nStrike at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Poisonous\nMist at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Poison Moth\nFlight at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Blood Blade\nat start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Seppuku at\nstart of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Chilling Mist\nat start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Hoarfrost\nStomp at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to White\nShadow's Lure at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Endure at\nstart of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Quickstep at\nstart of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Storm Stomp\nat start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Determination\nat start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's skill to Rain of\nArrows at start of expedition",
+          "ws": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "Changes compatible armament's sorcery to Magic\nGlintblade at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's sorcery to Carian\nGreatsword at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's sorcery to Night\nShard at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's sorcery to Magma\nShot at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's sorcery to Briars of\nPunishment at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's incantation to\nWrath of Gold at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's incantation to\nLightning Spear at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's incantation to\nO, Flame! at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's incantation to\nBeast Claw at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        },
+        {
+          "name": "Changes compatible armament's incantation to\nDragonfire at start of expedition",
+          "ws": [
+            20,
+            20,
+            20
+          ],
+          "dlc": true
+        }
+      ]
+    },
+    {
+      "groupName": "Stonesword Key in possession at start of expedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Stonesword Key in possession at start of expedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Strength",
+      "groupWs": [
+        156,
+        141,
+        123
+      ],
+      "effects": [
+        {
+          "name": "Strength +1",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Strength +2",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        },
+        {
+          "name": "Strength +3",
+          "ws": [
+            52,
+            47,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Successful guarding fills more of the Art gauge",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Successful guarding fills more of the Art gauge",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Throwing Daggers in possession at start of\nexpedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Throwing Daggers in possession at start of\nexpedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Treasure marked upon map",
+      "groupWs": [
+        46,
+        40,
+        35
+      ],
+      "effects": [
+        {
+          "name": "Treasure marked upon map",
+          "ws": [
+            46,
+            40,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "groupName": "Ultimate Art Auto Charge",
+      "groupWs": [
+        141,
+        176,
+        210
+      ],
+      "effects": [
+        {
+          "name": "Ultimate Art Auto Charge +1",
+          "ws": [
+            47,
+            42,
+            36
+          ],
+          "desc": "1.05× ultimate gauge gain"
+        },
+        {
+          "name": "Ultimate Art Auto Charge +2",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.075× ultimate gauge gain"
+        },
+        {
+          "name": "Ultimate Art Auto Charge +3",
+          "ws": [
+            47,
+            67,
+            87
+          ],
+          "desc": "1.1× ultimate gauge gain"
+        }
+      ]
+    },
+    {
+      "groupName": "Vigor",
+      "groupWs": [
+        156,
+        191,
+        225
+      ],
+      "effects": [
+        {
+          "name": "Vigor +1",
+          "ws": [
+            52,
+            47,
+            41
+          ],
+          "desc": "+20 Max HP"
+        },
+        {
+          "name": "Vigor +2",
+          "ws": [
+            52,
+            72,
+            92
+          ],
+          "desc": "+40 Max HP"
+        },
+        {
+          "name": "Vigor +3",
+          "ws": [
+            52,
+            72,
+            92
+          ],
+          "desc": "+60 Max HP"
+        }
+      ]
+    },
+    {
+      "groupName": "Wraith Calling Bell in possession at start of\nexpedition",
+      "groupWs": [
+        39,
+        34,
+        29
+      ],
+      "effects": [
+        {
+          "name": "Wraith Calling Bell in possession at start of\nexpedition",
+          "ws": [
+            39,
+            34,
+            29
+          ]
+        }
+      ]
+    }
+  ]
+}

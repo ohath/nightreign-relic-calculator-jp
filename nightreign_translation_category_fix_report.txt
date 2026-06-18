@@ -1,0 +1,19 @@
+Nightreign relic translation/category fix report
+
+Translation entries: 522
+Actual effect/curse entries categorized: 486
+Uncategorized actual entries: 0
+
+Key fixes:
+- Totem Stela effects moved to 無頼漢.
+- 魔術強化／祈祷強化 and all school-specific sorcery/incantation effects moved to 魔術／祈祷.
+- White Shadow's Lure translated as 白い影の誘い.
+- Start item / crystal tear / weapon skill / sorcery / incantation names aligned to supplied 神攻略 text.
+- Weapon-specific HP/FP/attack/3+ equipped/Dormant Power effects normalized under each weapon category.
+- Team-member and action effects reclassified according to supplied category text.
+- Reduced FP Consumption corrected to 回復, not デメリット.
+
+Remaining actual effect translations containing suspicious English words:
+- None
+
+No actual effect or curse entry remains in その他.

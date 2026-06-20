@@ -1488,6 +1488,46 @@
     }
 
   
+
+    /* Result copy button */
+    .probability-title-row {
+      width: 100% !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      gap: 0.75rem !important;
+      margin: 0 !important;
+    }
+    .copy-result-btn {
+      border: 1px solid rgba(18, 27, 44, 0.10) !important;
+      background: rgba(255,255,255,0.78) !important;
+      color: var(--app-muted) !important;
+      border-radius: 999px !important;
+      padding: 0.3rem 0.66rem !important;
+      font-size: 0.75rem !important;
+      font-weight: 800 !important;
+      line-height: 1 !important;
+      cursor: pointer !important;
+      transition: background .15s, color .15s, border-color .15s, transform .15s !important;
+      white-space: nowrap !important;
+      flex: 0 0 auto !important;
+    }
+    .copy-result-btn:hover:not(:disabled) {
+      background: rgba(255,255,255,0.96) !important;
+      color: var(--app-blue) !important;
+      border-color: rgba(0, 113, 227, 0.24) !important;
+      transform: translateY(-1px) !important;
+    }
+    .copy-result-btn:disabled {
+      opacity: 0.42 !important;
+      cursor: default !important;
+    }
+    .copy-result-btn.copied {
+      color: #166534 !important;
+      border-color: rgba(34, 197, 94, 0.28) !important;
+      background: rgba(34, 197, 94, 0.12) !important;
+    }
+
     /* Compact rarity guidance */
     .rarity-summary {
       margin-top: 0.85rem;
@@ -2130,10 +2170,104 @@ ef([s, …], W) = (1/K) × Σᵢ (wᵢ/W) × ef(rest, W − groupW(Gᵢ))</pre>
       `;
     }
 
+    let currentResultSnapshot = null;
+
+    function modeLabelForCurrentSelection() {
+      return mode === 'don' ? '深層の遺物' : '遺物';
+    }
+
+    function versionLabelForCurrentSelection() {
+      return preDLC ? 'Ver1.02以前' : '現行Ver';
+    }
+
+    function colorLabelForCurrentSelection() {
+      const labels = { blue: '青', yellow: '黄色', green: '緑', red: '赤' };
+      const checked = [...document.querySelectorAll('#color-checkboxes input:checked')].map(input => labels[input.value] || input.value);
+      if (checked.length === 4) return '全色';
+      if (checked.length === 0) return '全色';
+      return checked.join('・');
+    }
+
+    function selectedEffectDisplayNames() {
+      const groups = activeGroups();
+      return selectedEffectRefs().map(ref => {
+        const effect = groups[ref.groupIdx]?.effects[ref.effectIdx];
+        return trName(effect?.name || '');
+      }).filter(Boolean);
+    }
+
+    function buildCopyText() {
+      if (!currentResultSnapshot) return '';
+      const effectNames = selectedEffectDisplayNames();
+      if (!effectNames.length) return '';
+      const rarity = rarityInfo(currentResultSnapshot.probability);
+      const lines = [
+        '【ナイトレイン遺物確率】',
+        '',
+        `対象：${qualityLabelForCurrentSelection()} / ${colorLabelForCurrentSelection()} / ${modeLabelForCurrentSelection()} / ${versionLabelForCurrentSelection()}`,
+        '',
+        '効果:',
+        ...effectNames.map(name => `・${name}`),
+        '',
+        `推定確率：${currentResultSnapshot.percentText}`,
+        currentResultSnapshot.oneInText
+      ];
+      if (rarity) {
+        lines.push('', `レア度：${rarity.label}`, rarity.note);
+      }
+      return lines.join('\n');
+    }
+
+    async function copyResultText(button) {
+      const text = buildCopyText();
+      if (!text) return;
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(text);
+        } else {
+          const textarea = document.createElement('textarea');
+          textarea.value = text;
+          textarea.setAttribute('readonly', '');
+          textarea.style.position = 'fixed';
+          textarea.style.left = '-9999px';
+          document.body.appendChild(textarea);
+          textarea.select();
+          document.execCommand('copy');
+          textarea.remove();
+        }
+        if (button) {
+          const original = button.textContent;
+          button.textContent = '✓ コピー済み';
+          button.classList.add('copied');
+          button.disabled = true;
+          setTimeout(() => {
+            button.textContent = original || 'コピー';
+            button.classList.remove('copied');
+            button.disabled = !currentResultSnapshot;
+          }, 1500);
+        }
+      } catch (err) {
+        if (button) {
+          button.textContent = 'コピー失敗';
+          setTimeout(() => { button.textContent = 'コピー'; }, 1500);
+        }
+      }
+    }
+
+    function attachCopyButtons() {
+      document.querySelectorAll('.copy-result-btn').forEach(btn => {
+        btn.disabled = !currentResultSnapshot;
+        btn.onclick = () => copyResultText(btn);
+      });
+    }
+
     function probabilityCardMarkup(value, sub, probability = null) {
       return `
         <div class="probability-main">
-          <div class="probability-label">推定確率</div>
+          <div class="probability-title-row">
+            <div class="probability-label">推定確率</div>
+            <button type="button" class="copy-result-btn" ${probability ? '' : 'disabled'}>コピー</button>
+          </div>
           <div class="probability-value">${value}</div>
           <div class="probability-sub">${sub}</div>
           ${rarityMarkup(probability)}
@@ -2149,21 +2283,27 @@ ef([s, …], W) = (1/K) × Σᵢ (wᵢ/W) × ef(rest, W − groupW(Gᵢ))</pre>
     }
 
     function setProbabilityEmpty(message = '遺物効果を選択してください') {
+      currentResultSnapshot = null;
       resultEl.className = 'probability-card empty';
       resultEl.innerHTML = probabilityCardMarkup('—', message);
       renderSelectedEffects();
+      attachCopyButtons();
     }
 
     function setProbabilityValue(pctStr, oneInText, probability) {
+      currentResultSnapshot = { percentText: pctStr, oneInText, probability };
       resultEl.className = 'probability-card';
       resultEl.innerHTML = probabilityCardMarkup(pctStr, oneInText, probability);
       renderSelectedEffects();
+      attachCopyButtons();
     }
 
     function setProbabilityImpossible(message) {
+      currentResultSnapshot = null;
       resultEl.className = 'probability-card impossible';
       resultEl.innerHTML = probabilityCardMarkup('不可', message);
       renderSelectedEffects();
+      attachCopyButtons();
     }
     const dataNote       = document.getElementById('data-note');
     const slotsContainer = document.getElementById('slots-container');
@@ -2701,6 +2841,7 @@ ef([s, …], W) = (1/K) × Σᵢ (wᵢ/W) × ef(rest, W − groupW(Gᵢ))</pre>
         btn.disabled = selected.length === 0;
         btn.onclick = clearAllSelectedEffects;
       });
+      attachCopyButtons();
     }
 
     function renderEffectSearchResults() {
